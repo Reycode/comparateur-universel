@@ -1,0 +1,44 @@
+<!doctype html>
+<!--
+ This page is shown when the extension button is clicked, because the
+ "browser_action" field in manifest.json contains the "default_popup" key with
+ value "popup.html".
+ -->
+<html>
+  <head>
+
+    <link rel="stylesheet" href="popupstyle.css" />
+    <script src="popup.js"></script>
+
+    <title>Ajout d'un nouvel item</title>
+
+  </head>
+  
+  <body >
+	
+	<h1><a id="titre"></a></h1>
+	<div id='message'>Importation des infos...</div>
+	<p></p>
+	<img id="vignette" src=""></img>
+	
+	<form method="post" action="">
+	<p>
+		<input type="text" name="champ1" id="champ1" placeholder="ex : prix (€)" />
+	</p>
+	<p>
+		<input type="text" name="champ2" id="champ2" placeholder="ex : tel contact" />
+	</p>
+	<p>
+		<textarea type="text" name="champ3" id="champ3" placeholder="etc." autofocus></textarea>
+		<!-- <input type="text" name="champ3" id="champ3" placeholder="etc." /> -->
+	</p>
+	</form>
+
+    <button onclick="doFunction()" id="add">Ajouter au comparateur</button>
+	<p></p>
+    <button onclick="doFunction()" id="disp">=> Comparateur</button>
+	<p></p>	
+
+  </body>
+</html>
+

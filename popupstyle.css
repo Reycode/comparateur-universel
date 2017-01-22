@@ -1,0 +1,41 @@
+body
+{
+	background-color: Whitesmoke ;
+	text-align:center;
+	width: 210px;
+}
+
+h1
+{
+	font-size: 18px;
+	color: black;
+}
+
+img
+{
+	max-width: 200px;
+	max-height: 300px;
+}
+
+#champ3
+{
+	max-width: 200px;
+}
+
+button
+{
+  border-radius: 6px;
+  font-family: Arial;
+  color: black;
+  font-size: 14px;
+  padding: 6px;
+  background: lightgrey;
+  text-decoration: none;
+  border: 2px grey outset;
+}
+
+button:hover 
+{
+  background: #cfcfcf;
+  text-decoration: none;
+}

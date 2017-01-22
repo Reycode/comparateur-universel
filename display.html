@@ -1,0 +1,32 @@
+
+<!doctype html>
+<!--
+ This page is shown when the extension button is clicked, because the
+ "browser_action" field in manifest.json contains the "default_popup" key with
+ value "popup.html".
+ -->
+<html>
+  <head>
+    <title>Comparateur universel</title>
+    <link rel="stylesheet" href="displaystyle.css" />
+  </head>
+  
+  <body>
+    <h1>Compareyteur</h1>
+	<p id='status'></p>
+
+	
+	<section id='conteneur'>
+		<div id='liste'></div>...
+	</section>
+	
+    <script src="display.js"></script>
+  </body>
+  
+  <footer>
+	<p></p>
+	<button title="Effacer tout le comparateur" onclick="doFunction()" id="clear" numero="155" >CLEAR ALL</button>
+  </footer>
+</html>
+
+
